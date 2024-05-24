@@ -1,0 +1,46 @@
+.desktop {
+    display: none;
+  }
+  
+  @media (min-width: 600px) {
+    .desktop {
+      display: block; /* Change display property for desktop */
+    }
+  }
+  
+  .mobile {
+    display: block; /* Initially visible for mobile */
+  }
+  
+  @media (min-width: 600px) {
+    .mobile {
+      display: none; /* Hide for desktop */
+    }
+  }
+  
+  .main {
+    padding-bottom: 5%; /* Apply padding-bottom for all screen sizes */
+  }
+  
+  @media (min-width: 600px) {
+    .main {
+      padding-bottom: 0; /* Reset padding-bottom for desktop */
+    }
+  }
+  
+  .last {
+    margin-bottom: 16px; /* Default margin-bottom */
+    padding-bottom: 200px; /* Apply padding-bottom for all screen sizes */
+  }
+  
+  @media (min-width: 600px) {
+    .last {
+      margin-bottom: 24px; /* Adjusted margin-bottom for desktop */
+      padding-bottom: 0; /* Reset padding-bottom for desktop */
+    }
+  }
+  
+  .grid > * {
+    margin: 16px; /* Apply margin for all children */
+  }
+  

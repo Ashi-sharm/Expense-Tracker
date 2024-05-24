@@ -1,0 +1,9 @@
+.root{
+    width : 100%;
+
+
+}
+
+.root > * + * {
+    margin-top: 16px;
+}

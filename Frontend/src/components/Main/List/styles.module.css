@@ -1,0 +1,19 @@
+/* styles.css */
+
+/* Avatar styles */
+.avatarIncome {
+    color: #fff;
+    background-color: #4caf50; /* Green color */
+  }
+  
+  .avatarExpense {
+    color: #fff;
+    background-color: #f44336; /* Red color */
+  }
+  
+  /* List styles */
+  .list {
+    max-height: 150px;
+    overflow: auto;
+  }
+  
